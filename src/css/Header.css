@@ -1,0 +1,25 @@
+#header {
+  background-color: #303A2B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-title {
+  color: #F2F3D9;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.header-li {
+  color: #F2F3D9;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 0 15px 0 15px;
+  padding: 10px;
+}
+
+.header-li:hover {
+  border-radius: 15px;
+  background-color: #939486;
+}
