@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.js": "/portfolio-marcal/static/js/main.288d2892.js",
+    "main.css": "/portfolio-marcal/static/css/main.6be0b3f5.css",
+    "main.js": "/portfolio-marcal/static/js/main.bf82d770.js",
     "static/js/787.9a385212.chunk.js": "/portfolio-marcal/static/js/787.9a385212.chunk.js",
     "index.html": "/portfolio-marcal/index.html",
-    "main.288d2892.js.map": "/portfolio-marcal/static/js/main.288d2892.js.map",
+    "main.6be0b3f5.css.map": "/portfolio-marcal/static/css/main.6be0b3f5.css.map",
+    "main.bf82d770.js.map": "/portfolio-marcal/static/js/main.bf82d770.js.map",
     "787.9a385212.chunk.js.map": "/portfolio-marcal/static/js/787.9a385212.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.288d2892.js"
+    "static/css/main.6be0b3f5.css",
+    "static/js/main.bf82d770.js"
   ]
 }
