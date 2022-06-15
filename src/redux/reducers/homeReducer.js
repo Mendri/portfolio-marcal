@@ -1,10 +1,10 @@
 const INITIAL_STATE = {
-  aboutMe: true,
-  aboutPortfolio: true
+  aboutMe: false,
+  aboutPortfolio: false
 }
 
 function homeReducer (state = INITIAL_STATE, action) {
-  switch (action) {
+  switch (action.type) {
     case 'ABOUT_ME':
       return {
         ...state,
