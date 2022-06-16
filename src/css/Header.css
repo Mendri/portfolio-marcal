@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Tiro+Gurmukhi&display=swap');
+
 #header {
-  background-color: #303A2B;
+  background-image: linear-gradient(to bottom right, #303A2B, #4c7a74);
+  height: 8%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,6 +13,7 @@
   color: #F2F3D9;
   font-size: 30px;
   padding: 10px;
+  font-family: 'Tiro Gurmukhi', serif;
 }
 
 .header-li {
@@ -16,10 +21,10 @@
   font-size: 22px;
   text-decoration: none;
   margin: 0 15px 0 15px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .header-li:hover {
-  border-radius: 15px;
-  background-color: #939486;
+  border-radius: 10px;
+  background-color: #4c7a74;
 }
