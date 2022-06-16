@@ -17,6 +17,7 @@
 #aboutMe-title {
   font-family: 'Amatic SC', cursive;
   font-size: 40px;
+  font-weight: bolder;
 }
 
 #aboutMe-title:hover {
@@ -24,7 +25,11 @@
 }
 
 #aboutMe-container {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
   font-size: 25px;
+  animation: entradaDramatica 0.7s ease-in-out;
+  margin-top: 20px;
 }
 
 #about-portfolio {
@@ -36,6 +41,7 @@
 #aboutPortfolio-title {
   font-family: 'Amatic SC', cursive;
   font-size: 40px;
+  font-weight: bolder;
 }
 
 #aboutPortfolio-title:hover {
@@ -43,5 +49,20 @@
 }
 
 #aboutPortfolio-container {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
   font-size: 25px;
+  animation: entradaDramatica 1s ease-in-out;
+  margin-top: 20px;
+}
+
+@keyframes entradaDramatica {
+  from {
+    opacity: 0;
+  }
+
+
+  to {
+    opacity: 1;
+  }
 }
