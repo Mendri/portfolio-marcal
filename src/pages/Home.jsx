@@ -4,30 +4,45 @@ import PropTypes from 'prop-types'
 
 import { aboutPortfolio, aboutMe } from '../redux/actions'
 import Header from '../components/Header'
+import '../css/Home.css'
 
 class Home extends React.Component {
   render () {
     const { aboutMeState, aboutPortfolioState, aboutMeDispatch, aboutPortfolioDispatch } = this.props
     return (
-      <div>
+      <div id='home'>
         <Header />
-        <div id='about-me'>
-          <button type='button' onClick={ () => aboutMeDispatch() }>Quer saber um pouco sobre mim?</button>
-          {
-            aboutMeState &&
-            (
-              <div>Sou gostoso</div>
-            )
-          }
-        </div>
-        <div id='about-portfolio'>
-        <button type='button' onClick={ () => aboutPortfolioDispatch() }>Quer saber um pouco sobre esse Portfólio?</button>
-          {
-            aboutPortfolioState &&
-            (
-              <div>Esse Portfólio também é gostoso</div>
-            )
-          }
+        <div id='abouts'>
+          <div id='about-me'>
+            <h2
+              id='aboutMe-title'
+              onMouseEnter={ () => aboutMeDispatch() }
+              onMouseLeave={ () => aboutMeDispatch() }
+            >
+              Quer saber um pouco sobre mim?
+            </h2>
+            {
+              aboutMeState &&
+              (
+                <div id='aboutMe-container'>Sou gostoso</div>
+              )
+            }
+          </div>
+          <div id='about-portfolio'>
+            <h2
+            id='aboutPortfolio-title'
+              onMouseEnter={ () => aboutPortfolioDispatch() }
+              onMouseLeave={ () => aboutPortfolioDispatch() }
+            >
+              Quer saber um pouco sobre esse Portfólio?
+            </h2>
+            {
+              aboutPortfolioState &&
+              (
+                <div id='aboutPortfolio-container'>Esse Portfólio também é gostoso</div>
+              )
+            }
+          </div>
         </div>
       </div>
     )

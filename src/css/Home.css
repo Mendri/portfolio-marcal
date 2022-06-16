@@ -1,0 +1,47 @@
+#home {
+  height: 100%;
+}
+
+#abouts {
+  height: 92%;
+  display: flex;
+  justify-content: space-evenly ;
+}
+
+#about-me {
+  text-align: center;
+  width: 40%;
+  margin-top: 35px;
+}
+
+#aboutMe-title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+}
+
+#aboutMe-title:hover {
+  cursor: pointer;
+}
+
+#aboutMe-container {
+  font-size: 25px;
+}
+
+#about-portfolio {
+  width: 40%;
+  margin-top: 35px;
+  text-align: center;
+}
+
+#aboutPortfolio-title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+}
+
+#aboutPortfolio-title:hover {
+  cursor: pointer;
+}
+
+#aboutPortfolio-container {
+  font-size: 25px;
+}
