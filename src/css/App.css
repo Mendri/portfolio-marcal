@@ -9,6 +9,6 @@ html, body {
 }
 
 #root {
-  height: 100%;
-  background-image: linear-gradient( #FFF, #bfe7ad);
+  min-height: 100%;
+  background-image: linear-gradient( #e9ffe0, #bfe7ad);
 }
