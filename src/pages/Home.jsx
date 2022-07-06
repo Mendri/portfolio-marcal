@@ -6,10 +6,9 @@ import { aboutPortfolio, aboutMe } from '../redux/actions'
 import Header from '../components/Header'
 import '../css/Home.css'
 
-class Home extends React.Component {
-  render () {
-    const { aboutMeState, aboutPortfolioState, aboutMeDispatch, aboutPortfolioDispatch } = this.props
-    return (
+function Home (props) {
+  const { aboutMeState, aboutPortfolioState, aboutMeDispatch, aboutPortfolioDispatch } = props
+  return (
       <div id='home'>
         <Header />
         <div id='abouts'>
@@ -69,8 +68,7 @@ class Home extends React.Component {
           </div>
         </div>
       </div>
-    )
-  }
+  )
 }
 
 const mapStateToProps = state => ({
