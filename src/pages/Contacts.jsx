@@ -20,18 +20,18 @@ function Contacts () {
           <FontAwesomeIcon id='envelope-icon' icon={faEnvelope} />
         </div>
         <div id='linkedin-container'>
-          <a href='https://www.linkedin.com/in/mendrighi/'>
+          <a href='https://www.linkedin.com/in/mendrighi/' rel='noreferrer' target='_blank'>
             <FontAwesomeIcon id='linkedin-icon' icon={faLinkedin} />
           </a>
-          <a href='https://www.linkedin.com/in/mendrighi/' id='linkedin-paragraph'>
+          <a href='https://www.linkedin.com/in/mendrighi/' id='linkedin-paragraph' rel='noreferrer' target='_blank'>
             Caso queira uma abordagem mais profissional, este é meu Linkedin
           </a>
         </div>
         <div id='github-container'>
-          <a id='github-paragraph' href='https://github.com/Mendri'>
+          <a id='github-paragraph' href='https://github.com/Mendri' rel='noreferrer' target='_blank'>
             Se quiser acompanhar os projetos que eu já participei, este é meu GitHub
           </a>
-          <a href='https://github.com/Mendri'>
+          <a href='https://github.com/Mendri' rel='noreferrer' target='_blank'>
             <FontAwesomeIcon id='github-icon' icon={faGithub} />
           </a>
         </div>
